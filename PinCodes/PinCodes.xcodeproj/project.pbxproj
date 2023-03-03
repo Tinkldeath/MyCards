@@ -1,0 +1,644 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3283A30D29AFB54C00A51420 /* CardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3283A30C29AFB54C00A51420 /* CardViewController.swift */; };
+		32908B0D29AEC13F00A668F0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32908B0C29AEC13F00A668F0 /* AppDelegate.swift */; };
+		32908B0F29AEC13F00A668F0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32908B0E29AEC13F00A668F0 /* SceneDelegate.swift */; };
+		32908B1129AEC13F00A668F0 /* CardsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32908B1029AEC13F00A668F0 /* CardsViewController.swift */; };
+		32908B1429AEC13F00A668F0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32908B1229AEC13F00A668F0 /* Main.storyboard */; };
+		32908B1729AEC13F00A668F0 /* PinCodes.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 32908B1529AEC13F00A668F0 /* PinCodes.xcdatamodeld */; };
+		32908B1929AEC14000A668F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32908B1829AEC14000A668F0 /* Assets.xcassets */; };
+		32908B1C29AEC14000A668F0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32908B1A29AEC14000A668F0 /* LaunchScreen.storyboard */; };
+		32908B2429AEC20B00A668F0 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32908B2329AEC20B00A668F0 /* CoreDataManager.swift */; };
+		32908B4229AECD0000A668F0 /* Mastercard.svg.png in Resources */ = {isa = PBXBuildFile; fileRef = 32908B2729AECCFF00A668F0 /* Mastercard.svg.png */; };
+		32908B4329AECD0000A668F0 /* Cirrus.svg.png in Resources */ = {isa = PBXBuildFile; fileRef = 32908B2829AECCFF00A668F0 /* Cirrus.svg.png */; };
+		32908B4529AECD0000A668F0 /* JCB.svg.png in Resources */ = {isa = PBXBuildFile; fileRef = 32908B2A29AECCFF00A668F0 /* JCB.svg.png */; };
+		32908B4629AECD0000A668F0 /* UnionPay.svg.png in Resources */ = {isa = PBXBuildFile; fileRef = 32908B2B29AECCFF00A668F0 /* UnionPay.svg.png */; };
+		32908B4729AECD0000A668F0 /* Maestro.svg.png in Resources */ = {isa = PBXBuildFile; fileRef = 32908B2C29AECCFF00A668F0 /* Maestro.svg.png */; };
+		32908B4829AECD0000A668F0 /* PLUS.svg.png in Resources */ = {isa = PBXBuildFile; fileRef = 32908B2D29AECCFF00A668F0 /* PLUS.svg.png */; };
+		32908B4929AECD0000A668F0 /* Appicon-20@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 32908B3029AECCFF00A668F0 /* Appicon-20@3x.png */; };
+		32908B4A29AECD0000A668F0 /* Appicon-1024.png in Resources */ = {isa = PBXBuildFile; fileRef = 32908B3129AECCFF00A668F0 /* Appicon-1024.png */; };
+		32908B4B29AECD0000A668F0 /* Appicon-76.png in Resources */ = {isa = PBXBuildFile; fileRef = 32908B3229AECCFF00A668F0 /* Appicon-76.png */; };
+		32908B4C29AECD0000A668F0 /* Appicon-20@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 32908B3329AECCFF00A668F0 /* Appicon-20@2x.png */; };
+		32908B4D29AECD0000A668F0 /* Appicon-29.png in Resources */ = {isa = PBXBuildFile; fileRef = 32908B3429AECCFF00A668F0 /* Appicon-29.png */; };
+		32908B4E29AECD0000A668F0 /* Appicon-76@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 32908B3529AECCFF00A668F0 /* Appicon-76@2x.png */; };
+		32908B4F29AECD0000A668F0 /* Appicon-40@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 32908B3629AECCFF00A668F0 /* Appicon-40@2x.png */; };
+		32908B5029AECD0000A668F0 /* Appicon-83.5@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 32908B3729AECCFF00A668F0 /* Appicon-83.5@2x.png */; };
+		32908B5129AECD0000A668F0 /* Appicon-40@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 32908B3829AECCFF00A668F0 /* Appicon-40@3x.png */; };
+		32908B5229AECD0000A668F0 /* Appicon-20.png in Resources */ = {isa = PBXBuildFile; fileRef = 32908B3929AECCFF00A668F0 /* Appicon-20.png */; };
+		32908B5329AECD0000A668F0 /* Contents.json in Resources */ = {isa = PBXBuildFile; fileRef = 32908B3A29AECCFF00A668F0 /* Contents.json */; };
+		32908B5429AECD0000A668F0 /* Appicon-60@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 32908B3B29AECCFF00A668F0 /* Appicon-60@3x.png */; };
+		32908B5529AECD0000A668F0 /* Appicon-29@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 32908B3C29AECCFF00A668F0 /* Appicon-29@2x.png */; };
+		32908B5629AECD0000A668F0 /* Appicon-40.png in Resources */ = {isa = PBXBuildFile; fileRef = 32908B3D29AECCFF00A668F0 /* Appicon-40.png */; };
+		32908B5729AECD0000A668F0 /* Appicon-29@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 32908B3E29AECCFF00A668F0 /* Appicon-29@3x.png */; };
+		32908B5829AECD0000A668F0 /* Appicon-60@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 32908B3F29AECCFF00A668F0 /* Appicon-60@2x.png */; };
+		32908B5929AECD0000A668F0 /* Appicon.psd in Resources */ = {isa = PBXBuildFile; fileRef = 32908B4029AECCFF00A668F0 /* Appicon.psd */; };
+		32908B5A29AECD0000A668F0 /* Appicon.png in Resources */ = {isa = PBXBuildFile; fileRef = 32908B4129AECCFF00A668F0 /* Appicon.png */; };
+		32908B5D29AED26000A668F0 /* Visa.svg.png in Resources */ = {isa = PBXBuildFile; fileRef = 32908B5C29AED26000A668F0 /* Visa.svg.png */; };
+		32908B6429AEE73600A668F0 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32908B6329AEE73600A668F0 /* GradientView.swift */; };
+		32D2C8CA29AF5597004973DE /* LaunchScreen.png in Resources */ = {isa = PBXBuildFile; fileRef = 32D2C8C929AF5597004973DE /* LaunchScreen.png */; };
+		51B65C7F3499043E22E922F8 /* Pods_PinCodes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77683CA4C7661BC1C5A2FFEC /* Pods_PinCodes.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3283A30C29AFB54C00A51420 /* CardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardViewController.swift; sourceTree = "<group>"; };
+		32908B0929AEC13F00A668F0 /* PinCodes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PinCodes.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		32908B0C29AEC13F00A668F0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		32908B0E29AEC13F00A668F0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		32908B1029AEC13F00A668F0 /* CardsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardsViewController.swift; sourceTree = "<group>"; };
+		32908B1329AEC13F00A668F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		32908B1629AEC13F00A668F0 /* PinCodes.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PinCodes.xcdatamodel; sourceTree = "<group>"; };
+		32908B1829AEC14000A668F0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		32908B1B29AEC14000A668F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		32908B1D29AEC14000A668F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32908B2329AEC20B00A668F0 /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		32908B2729AECCFF00A668F0 /* Mastercard.svg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Mastercard.svg.png; sourceTree = "<group>"; };
+		32908B2829AECCFF00A668F0 /* Cirrus.svg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Cirrus.svg.png; sourceTree = "<group>"; };
+		32908B2A29AECCFF00A668F0 /* JCB.svg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = JCB.svg.png; sourceTree = "<group>"; };
+		32908B2B29AECCFF00A668F0 /* UnionPay.svg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = UnionPay.svg.png; sourceTree = "<group>"; };
+		32908B2C29AECCFF00A668F0 /* Maestro.svg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Maestro.svg.png; sourceTree = "<group>"; };
+		32908B2D29AECCFF00A668F0 /* PLUS.svg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PLUS.svg.png; sourceTree = "<group>"; };
+		32908B3029AECCFF00A668F0 /* Appicon-20@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Appicon-20@3x.png"; sourceTree = "<group>"; };
+		32908B3129AECCFF00A668F0 /* Appicon-1024.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Appicon-1024.png"; sourceTree = "<group>"; };
+		32908B3229AECCFF00A668F0 /* Appicon-76.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Appicon-76.png"; sourceTree = "<group>"; };
+		32908B3329AECCFF00A668F0 /* Appicon-20@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Appicon-20@2x.png"; sourceTree = "<group>"; };
+		32908B3429AECCFF00A668F0 /* Appicon-29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Appicon-29.png"; sourceTree = "<group>"; };
+		32908B3529AECCFF00A668F0 /* Appicon-76@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Appicon-76@2x.png"; sourceTree = "<group>"; };
+		32908B3629AECCFF00A668F0 /* Appicon-40@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Appicon-40@2x.png"; sourceTree = "<group>"; };
+		32908B3729AECCFF00A668F0 /* Appicon-83.5@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Appicon-83.5@2x.png"; sourceTree = "<group>"; };
+		32908B3829AECCFF00A668F0 /* Appicon-40@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Appicon-40@3x.png"; sourceTree = "<group>"; };
+		32908B3929AECCFF00A668F0 /* Appicon-20.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Appicon-20.png"; sourceTree = "<group>"; };
+		32908B3A29AECCFF00A668F0 /* Contents.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Contents.json; sourceTree = "<group>"; };
+		32908B3B29AECCFF00A668F0 /* Appicon-60@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Appicon-60@3x.png"; sourceTree = "<group>"; };
+		32908B3C29AECCFF00A668F0 /* Appicon-29@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Appicon-29@2x.png"; sourceTree = "<group>"; };
+		32908B3D29AECCFF00A668F0 /* Appicon-40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Appicon-40.png"; sourceTree = "<group>"; };
+		32908B3E29AECCFF00A668F0 /* Appicon-29@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Appicon-29@3x.png"; sourceTree = "<group>"; };
+		32908B3F29AECCFF00A668F0 /* Appicon-60@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Appicon-60@2x.png"; sourceTree = "<group>"; };
+		32908B4029AECCFF00A668F0 /* Appicon.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = Appicon.psd; sourceTree = "<group>"; };
+		32908B4129AECCFF00A668F0 /* Appicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Appicon.png; sourceTree = "<group>"; };
+		32908B5C29AED26000A668F0 /* Visa.svg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Visa.svg.png; sourceTree = "<group>"; };
+		32908B6329AEE73600A668F0 /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
+		32D2C8C929AF5597004973DE /* LaunchScreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LaunchScreen.png; sourceTree = "<group>"; };
+		3F819654418FFC3B10708F0D /* Pods-PinCodes.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PinCodes.release.xcconfig"; path = "Target Support Files/Pods-PinCodes/Pods-PinCodes.release.xcconfig"; sourceTree = "<group>"; };
+		6DF0A2E3EBCDA801B65C9436 /* Pods-PinCodes.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PinCodes.debug.xcconfig"; path = "Target Support Files/Pods-PinCodes/Pods-PinCodes.debug.xcconfig"; sourceTree = "<group>"; };
+		77683CA4C7661BC1C5A2FFEC /* Pods_PinCodes.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PinCodes.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		32908B0629AEC13F00A668F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51B65C7F3499043E22E922F8 /* Pods_PinCodes.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		32908B0029AEC13F00A668F0 = {
+			isa = PBXGroup;
+			children = (
+				32908B0B29AEC13F00A668F0 /* PinCodes */,
+				32908B0A29AEC13F00A668F0 /* Products */,
+				A9756BB5E384FBF33D90758E /* Pods */,
+				8A995A1E76C2C99220141BA0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		32908B0A29AEC13F00A668F0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				32908B0929AEC13F00A668F0 /* PinCodes.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		32908B0B29AEC13F00A668F0 /* PinCodes */ = {
+			isa = PBXGroup;
+			children = (
+				32908B5E29AED4F800A668F0 /* Views */,
+				32908B2529AECCFF00A668F0 /* Media */,
+				32908B2329AEC20B00A668F0 /* CoreDataManager.swift */,
+				32908B0C29AEC13F00A668F0 /* AppDelegate.swift */,
+				32908B0E29AEC13F00A668F0 /* SceneDelegate.swift */,
+				32908B1829AEC14000A668F0 /* Assets.xcassets */,
+				32908B1D29AEC14000A668F0 /* Info.plist */,
+				32908B1529AEC13F00A668F0 /* PinCodes.xcdatamodeld */,
+			);
+			path = PinCodes;
+			sourceTree = "<group>";
+		};
+		32908B2529AECCFF00A668F0 /* Media */ = {
+			isa = PBXGroup;
+			children = (
+				32D2C8C929AF5597004973DE /* LaunchScreen.png */,
+				32908B2629AECCFF00A668F0 /* PaymentSystems */,
+				32908B2E29AECCFF00A668F0 /* Appicon */,
+			);
+			path = Media;
+			sourceTree = "<group>";
+		};
+		32908B2629AECCFF00A668F0 /* PaymentSystems */ = {
+			isa = PBXGroup;
+			children = (
+				32908B5C29AED26000A668F0 /* Visa.svg.png */,
+				32908B2729AECCFF00A668F0 /* Mastercard.svg.png */,
+				32908B2829AECCFF00A668F0 /* Cirrus.svg.png */,
+				32908B2A29AECCFF00A668F0 /* JCB.svg.png */,
+				32908B2B29AECCFF00A668F0 /* UnionPay.svg.png */,
+				32908B2C29AECCFF00A668F0 /* Maestro.svg.png */,
+				32908B2D29AECCFF00A668F0 /* PLUS.svg.png */,
+			);
+			path = PaymentSystems;
+			sourceTree = "<group>";
+		};
+		32908B2E29AECCFF00A668F0 /* Appicon */ = {
+			isa = PBXGroup;
+			children = (
+				32908B2F29AECCFF00A668F0 /* AppIcon.appiconset */,
+				32908B4029AECCFF00A668F0 /* Appicon.psd */,
+				32908B4129AECCFF00A668F0 /* Appicon.png */,
+			);
+			path = Appicon;
+			sourceTree = "<group>";
+		};
+		32908B2F29AECCFF00A668F0 /* AppIcon.appiconset */ = {
+			isa = PBXGroup;
+			children = (
+				32908B3029AECCFF00A668F0 /* Appicon-20@3x.png */,
+				32908B3129AECCFF00A668F0 /* Appicon-1024.png */,
+				32908B3229AECCFF00A668F0 /* Appicon-76.png */,
+				32908B3329AECCFF00A668F0 /* Appicon-20@2x.png */,
+				32908B3429AECCFF00A668F0 /* Appicon-29.png */,
+				32908B3529AECCFF00A668F0 /* Appicon-76@2x.png */,
+				32908B3629AECCFF00A668F0 /* Appicon-40@2x.png */,
+				32908B3729AECCFF00A668F0 /* Appicon-83.5@2x.png */,
+				32908B3829AECCFF00A668F0 /* Appicon-40@3x.png */,
+				32908B3929AECCFF00A668F0 /* Appicon-20.png */,
+				32908B3A29AECCFF00A668F0 /* Contents.json */,
+				32908B3B29AECCFF00A668F0 /* Appicon-60@3x.png */,
+				32908B3C29AECCFF00A668F0 /* Appicon-29@2x.png */,
+				32908B3D29AECCFF00A668F0 /* Appicon-40.png */,
+				32908B3E29AECCFF00A668F0 /* Appicon-29@3x.png */,
+				32908B3F29AECCFF00A668F0 /* Appicon-60@2x.png */,
+			);
+			path = AppIcon.appiconset;
+			sourceTree = "<group>";
+		};
+		32908B5E29AED4F800A668F0 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				32DA359429AF9B69009FE545 /* Controllers */,
+				32908B6529AEE88900A668F0 /* CustomViews */,
+				32908B5F29AED50A00A668F0 /* Storyboards */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		32908B5F29AED50A00A668F0 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				32908B1229AEC13F00A668F0 /* Main.storyboard */,
+				32908B1A29AEC14000A668F0 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		32908B6529AEE88900A668F0 /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				32908B6329AEE73600A668F0 /* GradientView.swift */,
+			);
+			path = CustomViews;
+			sourceTree = "<group>";
+		};
+		32DA359429AF9B69009FE545 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				32908B1029AEC13F00A668F0 /* CardsViewController.swift */,
+				3283A30C29AFB54C00A51420 /* CardViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		8A995A1E76C2C99220141BA0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				77683CA4C7661BC1C5A2FFEC /* Pods_PinCodes.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A9756BB5E384FBF33D90758E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6DF0A2E3EBCDA801B65C9436 /* Pods-PinCodes.debug.xcconfig */,
+				3F819654418FFC3B10708F0D /* Pods-PinCodes.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		32908B0829AEC13F00A668F0 /* PinCodes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32908B2029AEC14000A668F0 /* Build configuration list for PBXNativeTarget "PinCodes" */;
+			buildPhases = (
+				9A67E316232EC8098E268B40 /* [CP] Check Pods Manifest.lock */,
+				32908B0529AEC13F00A668F0 /* Sources */,
+				32908B0629AEC13F00A668F0 /* Frameworks */,
+				32908B0729AEC13F00A668F0 /* Resources */,
+				DEE60FD6AD5BE278AF0689D5 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PinCodes;
+			productName = PinCodes;
+			productReference = 32908B0929AEC13F00A668F0 /* PinCodes.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		32908B0129AEC13F00A668F0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					32908B0829AEC13F00A668F0 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = 32908B0429AEC13F00A668F0 /* Build configuration list for PBXProject "PinCodes" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 32908B0029AEC13F00A668F0;
+			productRefGroup = 32908B0A29AEC13F00A668F0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				32908B0829AEC13F00A668F0 /* PinCodes */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		32908B0729AEC13F00A668F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32908B4B29AECD0000A668F0 /* Appicon-76.png in Resources */,
+				32908B5829AECD0000A668F0 /* Appicon-60@2x.png in Resources */,
+				32908B4E29AECD0000A668F0 /* Appicon-76@2x.png in Resources */,
+				32908B4A29AECD0000A668F0 /* Appicon-1024.png in Resources */,
+				32908B5629AECD0000A668F0 /* Appicon-40.png in Resources */,
+				32908B4829AECD0000A668F0 /* PLUS.svg.png in Resources */,
+				32908B5529AECD0000A668F0 /* Appicon-29@2x.png in Resources */,
+				32908B5A29AECD0000A668F0 /* Appicon.png in Resources */,
+				32908B4529AECD0000A668F0 /* JCB.svg.png in Resources */,
+				32908B5929AECD0000A668F0 /* Appicon.psd in Resources */,
+				32908B1C29AEC14000A668F0 /* LaunchScreen.storyboard in Resources */,
+				32908B4229AECD0000A668F0 /* Mastercard.svg.png in Resources */,
+				32908B4729AECD0000A668F0 /* Maestro.svg.png in Resources */,
+				32908B4629AECD0000A668F0 /* UnionPay.svg.png in Resources */,
+				32908B1929AEC14000A668F0 /* Assets.xcassets in Resources */,
+				32908B5129AECD0000A668F0 /* Appicon-40@3x.png in Resources */,
+				32908B5D29AED26000A668F0 /* Visa.svg.png in Resources */,
+				32908B4329AECD0000A668F0 /* Cirrus.svg.png in Resources */,
+				32908B1429AEC13F00A668F0 /* Main.storyboard in Resources */,
+				32908B5229AECD0000A668F0 /* Appicon-20.png in Resources */,
+				32908B5729AECD0000A668F0 /* Appicon-29@3x.png in Resources */,
+				32908B4929AECD0000A668F0 /* Appicon-20@3x.png in Resources */,
+				32908B4F29AECD0000A668F0 /* Appicon-40@2x.png in Resources */,
+				32908B4C29AECD0000A668F0 /* Appicon-20@2x.png in Resources */,
+				32908B5429AECD0000A668F0 /* Appicon-60@3x.png in Resources */,
+				32908B4D29AECD0000A668F0 /* Appicon-29.png in Resources */,
+				32908B5029AECD0000A668F0 /* Appicon-83.5@2x.png in Resources */,
+				32908B5329AECD0000A668F0 /* Contents.json in Resources */,
+				32D2C8CA29AF5597004973DE /* LaunchScreen.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9A67E316232EC8098E268B40 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PinCodes-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DEE60FD6AD5BE278AF0689D5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PinCodes/Pods-PinCodes-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PinCodes/Pods-PinCodes-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PinCodes/Pods-PinCodes-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		32908B0529AEC13F00A668F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32908B1129AEC13F00A668F0 /* CardsViewController.swift in Sources */,
+				3283A30D29AFB54C00A51420 /* CardViewController.swift in Sources */,
+				32908B0D29AEC13F00A668F0 /* AppDelegate.swift in Sources */,
+				32908B6429AEE73600A668F0 /* GradientView.swift in Sources */,
+				32908B1729AEC13F00A668F0 /* PinCodes.xcdatamodeld in Sources */,
+				32908B2429AEC20B00A668F0 /* CoreDataManager.swift in Sources */,
+				32908B0F29AEC13F00A668F0 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		32908B1229AEC13F00A668F0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				32908B1329AEC13F00A668F0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		32908B1A29AEC14000A668F0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				32908B1B29AEC14000A668F0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		32908B1E29AEC14000A668F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		32908B1F29AEC14000A668F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		32908B2129AEC14000A668F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6DF0A2E3EBCDA801B65C9436 /* Pods-PinCodes.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 97AF9CH96R;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PinCodes/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "My Cards";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.finance";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tinkldeath.PinCodes;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		32908B2229AEC14000A668F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3F819654418FFC3B10708F0D /* Pods-PinCodes.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 97AF9CH96R;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PinCodes/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "My Cards";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.finance";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tinkldeath.PinCodes;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		32908B0429AEC13F00A668F0 /* Build configuration list for PBXProject "PinCodes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32908B1E29AEC14000A668F0 /* Debug */,
+				32908B1F29AEC14000A668F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		32908B2029AEC14000A668F0 /* Build configuration list for PBXNativeTarget "PinCodes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32908B2129AEC14000A668F0 /* Debug */,
+				32908B2229AEC14000A668F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		32908B1529AEC13F00A668F0 /* PinCodes.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				32908B1629AEC13F00A668F0 /* PinCodes.xcdatamodel */,
+			);
+			currentVersion = 32908B1629AEC13F00A668F0 /* PinCodes.xcdatamodel */;
+			path = PinCodes.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 32908B0129AEC13F00A668F0 /* Project object */;
+}
