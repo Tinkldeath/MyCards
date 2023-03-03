@@ -5,12 +5,11 @@
 * Core Data
 * RxSwift
 
-## Architectural patterns:
-* MVVM (Presentation)
-* Repository pattern (Data storage)
-
 ## Features:
 * CRUD for bank cards details (Payment System, PIN, number, CVV)
 * Customizable UI
 * TouchId/FaceId/Password authentication
 
+## Architectura components:
+* MVVM (Presentation)
+* Repository pattern (Data storage)
